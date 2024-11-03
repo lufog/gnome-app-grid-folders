@@ -1,5 +1,20 @@
 #!/bin/sh
 
+# Sound & Video
+folder_path+=('AudioVideo')
+folder_name+=('Sound & Video')
+folder_categories+=("['AudioVideo','Audio','Video']")
+
+# Development
+folder_path+=('Development')
+folder_name+=('Development')
+folder_categories+=("['Development']")
+
+# Education
+folder_path+=('Education')
+folder_name+=('Education')
+folder_categories+=("['Education']")
+
 # Games
 folder_path+=('Games')
 folder_name+=('Games')
@@ -8,12 +23,7 @@ folder_categories+=("['Game']")
 # Graphics
 folder_path+=('Graphics')
 folder_name+=('Graphics')
-folder_categories+=("['Graphics','VectorGraphics']")
-
-# Development
-folder_path+=('Development')
-folder_name+=('Development')
-folder_categories+=("['Development']")
+folder_categories+=("['Graphics']")
 
 # Network
 folder_path+=('Network')
@@ -25,10 +35,15 @@ folder_path+=('Office')
 folder_name+=('Office')
 folder_categories+=("['Office']")
 
-# Sound & Video
-folder_path+=('AudioVideo')
-folder_name+=('Sound & Video')
-folder_categories+=("['AudioVideo']")
+# Science
+folder_path+=('Science')
+folder_name+=('Science')
+folder_categories+=("['Science']")
+
+# Settings
+folder_path+=('Settings')
+folder_name+=('Settings')
+folder_categories+=("['Settings']")
 
 # System Tools
 folder_path+=('System')
@@ -39,9 +54,4 @@ folder_categories+=("['System']")
 folder_path+=('Utilities')
 folder_name+=('Utilities')
 folder_categories+=("['Utility']")
-
-# Other
-folder_path+=('Other')
-folder_name+=('Other')
-folder_categories+=("['Settings']")
 
