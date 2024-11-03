@@ -4,6 +4,8 @@ https://github.com/user-attachments/assets/08d522ab-f668-402c-885a-de70c867d53e
 
 > [!WARNING]
 > Before creating folders, the script resets all existing folders.
+>
+> Also, close all applications and save any unsaved work. As there is a possibility of gnome-shell crashing.
 
 How to use:
 * download `create-folders.sh` and `folder-list` files and place them in the same folder;
